@@ -1,4 +1,4 @@
-# using sep= and sep=
+# using sep= and end on print content
 country = 'Brazil'
 province = 'Mato Grosso do Sul'
 city = 'Campo Grande'

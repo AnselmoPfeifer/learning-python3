@@ -10,3 +10,8 @@ brew install python3
 
 python3 -V
 ```
+
+- [SonarQube Scanner](https://docs.sonarqube.org/display/PLUG/SonarPython)
+```
+sonar-scanner
+``
