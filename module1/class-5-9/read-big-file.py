@@ -1,4 +1,4 @@
-from introduction.utils import logger
+from module1.utils import logger
 
 input_file = open('big.txt', 'r')
 output_file = open('output.txt', 'w')

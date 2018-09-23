@@ -1,4 +1,4 @@
-from introduction.utils import logger
+from module1.utils import logger
 
 
 def start_game():

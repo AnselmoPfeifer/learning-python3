@@ -1,4 +1,4 @@
-from introduction.utils import logger
+from module1.utils import logger
 
 data_list = ['test', 'test1', 'test2', 'test2']
 

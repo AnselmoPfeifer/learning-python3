@@ -1,6 +1,6 @@
 import random
 
-from introduction.utils import logger
+from module1.utils import logger
 
 attempts = 1
 secret_number = random.randrange(1, 101)
