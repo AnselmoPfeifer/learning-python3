@@ -16,7 +16,7 @@ node() {
     }
 
     stage('SonarQube-Scan') {
-        def scannerHome = tool 'SymphonySonarScanner'
+        def scannerHome = tool 'SonarScanner'
         script{
             sh('bash dependencies.sh > env.txt')
             sh("${scannerHome}/bin/sonar-scanner -Dsonar.host.url=${SONAR_URL}")

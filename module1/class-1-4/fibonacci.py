@@ -1,7 +1,5 @@
-from introduction import utils
 from functools import lru_cache
 
-LOG = utils.logger
 fibonacci_cache = {}
 
 
@@ -21,5 +19,6 @@ def fibonacci(n):
 
 
 for n in range(1, 501):
-    LOG.info('{} : {}'.format(n, fibonacci(10)))
+    print('{} : {}'.format(n, fibonacci(10)))
+
 

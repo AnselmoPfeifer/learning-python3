@@ -7,8 +7,8 @@ option_str = input('Type the number!: ')
 option = int(option_str)
 
 correct = option == secret_number
-higher  = option > secret_number
-lower   = option < secret_number
+higher = option > secret_number
+lower = option < secret_number
 
 if correct:
     print('Correct!!!')
