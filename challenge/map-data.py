@@ -33,4 +33,4 @@ def num_map(num):
             print(k)
 
 
-num_map(100)
+num_map(1)
