@@ -53,9 +53,9 @@ def __execute_game(level):
             break
         else:
             if bigger:
-                logger.info('You are wrong! The kick was higher than Secret number!!!')
+                logger.info('You are wrong! The kick is higher than Secret number!!!')
             elif less:
-                logger.info('You are wrong! The kick was less than Secret number!!!')
+                logger.info('You are wrong! The kick is less than Secret number!!!')
             lost_points = round(abs(secret_number - kick) /3) # 40 -20 = 20
             points = points - lost_points
 
