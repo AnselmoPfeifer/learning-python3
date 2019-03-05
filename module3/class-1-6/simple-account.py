@@ -1,7 +1,8 @@
 # Test the procedural functions
 
-def create_new_account(id, name, balance, limit):
-    account = {'id': id, 'name': name, 'balance': balance, 'limit': limit}
+
+def create_new_account(number, name, balance, limit):
+    account = {'number': number, 'name': name, 'balance': balance, 'limit': limit}
     return account
 
 
