@@ -35,7 +35,6 @@ def end_message(winner):
         logger.error(lost)
 
 
-
 def read_file():
     list_of_secrets_word = []
     with open('list-of-words.txt', 'r') as word_list:
