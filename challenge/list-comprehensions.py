@@ -25,3 +25,15 @@ for x in range(10):
         even_squares.append(x * x)
 print('{}'.format(even_squares))
 # [16]
+
+inteiros = [1, 3, 4, 5, 7, 8, 9]
+pares = [n % 2 for n in inteiros]
+print(pares)
+# [4, 8]
+
+pares = []
+for numero in inteiros:
+    if numero % 2 == 0:
+        pares.append(numero)
+    print(pares)
+# [4, 8]
